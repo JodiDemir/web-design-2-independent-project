@@ -2,8 +2,79 @@ html {
   box-sizing: border-box;
   font-family: "Playfair Display", serif;
   font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: linear-gradient(#E8E1D9, #66806a);
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav a {
+  color: #fff;
+  padding: .5em;
+  border-radius: 1em;
+  text-decoration: none;
+  background-color: #1c1c1c;
+}
+
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E8E1D9;
+  padding: 0 1rem;
+}
+
+.banner img {
+  grid-area: banner;
+  width: 100%;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "banner";
+}
+
+.banner h1,
+.banner p {
+  margin: 0 0 1.5rem;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 5rem;
+}
+
+.banner div {
+  grid-area: banner;
+  align-self: center;
+  justify-self: center;
+  padding: 2rem 0;
+  max-width: 20em;
+  text-align: center;
+}
+
+article {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
