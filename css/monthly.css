@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: linear-gradient(#E8E1D9, #66806a);
+}
+
+@media only screen and (min-width: 38rem) {
+
+  body {
+    display: grid;
+    grid-template-areas:
+      "banner banner banner"
+      "main main main"
+      "footer";
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  article {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
