@@ -30,6 +30,10 @@ body {
   background-color: #1c1c1c;
 }
 
+a:hover {
+  background-color: #66806a;
+}
+
 footer article {
   gap: 1rem;
   display: grid;
@@ -72,6 +76,10 @@ div img {
 
   div img {
     width: 100%;
+  }
+
+  a:hover {
+    background-color: #66806a;
   }
 
 }

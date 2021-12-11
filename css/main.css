@@ -34,6 +34,10 @@ h1 {
   background-color: #1c1c1c;
 }
 
+a:hover {
+  background-color: #66806a;
+}
+
 .masthead {
   display: flex;
   justify-content: space-between;
