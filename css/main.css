@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-image: linear-gradient(#E8E1D9, #66806a);
+  background-image: linear-gradient(#e8e1d9, #66806a);
 }
 
 h1 {
@@ -38,7 +38,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #E8E1D9;
+  background-color: #e8e1d9;
   padding: 0 1rem;
 }
 
